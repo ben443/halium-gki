@@ -4,8 +4,6 @@ include:
 variables:
   OTA_CHANNEL: "utnext/arm64/android9plus/daily"
 
-image: ubuntu:20.04
-
 build:
   rules:
    - when: never
